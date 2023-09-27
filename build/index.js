@@ -1,8 +1,8 @@
 "use strict";
 function printaObjetos(pessoa) {
-  console.log(pessoa);
+    console.log(pessoa);
 }
 printaObjetos({
-  name: "Bruce Wayne",
-  vulgo: "Batman",
+    name: "Bruce Wayne",
+    vulgo: "Batman",
 });
