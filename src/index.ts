@@ -1,2 +1,10 @@
-let dado: string = "rodando sem build, testando restart";
-console.log(dado);
+// decorators
+function ExibirNome(target: any) {
+  console.log(target);
+}
+
+@ExibirNome
+class Funcionario {}
+
+@ExibirNome
+ class Quincas{}
